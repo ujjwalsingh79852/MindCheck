@@ -1,0 +1,24 @@
+{
+  "name": "mindcheck-root",
+  "version": "1.0.0",
+  "description": "MindCheck - Anonymous Student Mental Wellness Check-in Platform & Daily Task Planner",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix client",
+    "start": "npm run build --prefix client && npm run start --prefix server",
+    "dev": "npm run build --prefix client && npm run start --prefix server",
+    "start:server": "npm run start --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "test": "node scripts/test-api.js"
+  },
+  "keywords": [
+    "mental-wellness",
+    "student-app",
+    "k-anonymity",
+    "task-planner",
+    "express",
+    "react"
+  ]
+}
